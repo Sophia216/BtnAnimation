@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="58dp"
+        android:background="@drawable/shape_btn"
+        android:gravity="center"
+        android:onClick="singIn"
+        android:text="签到"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <com.server.btnanimation.TransitionView
+        android:id="@+id/ani_view"
+        android:layout_width="155dp"
+        android:layout_height="58dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
