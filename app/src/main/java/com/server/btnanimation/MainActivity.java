@@ -3,6 +3,7 @@ package com.server.btnanimation;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onEnd()
             {
-                //TODO 动画结束后跳转业务逻辑
+                //动画结束后跳转业务逻辑
+                Toast.makeText(MainActivity.this, "签到成功",Toast.LENGTH_SHORT).show();
             }
         });
     }

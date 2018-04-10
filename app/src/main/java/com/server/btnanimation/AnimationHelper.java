@@ -40,7 +40,7 @@ public class AnimationHelper {
     }
 
     /**
-     * 签出文字动画
+     * 文字渐出动画
      */
     public static void SignOutAni(View target, SimpleAnimatorListener endListener) {
         target.setVisibility(View.VISIBLE);
